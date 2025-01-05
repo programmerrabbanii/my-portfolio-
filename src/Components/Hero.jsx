@@ -36,16 +36,16 @@ const Hero = () => {
             </motion.p>
 
             <div className="flex justify-center lg:justify-start gap-6 pb-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a href="https://github.com/programmerrabbanii" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
                 <FaGithub />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a href="https://www.facebook.com/developerrabbani" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
                 <FaFacebook />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a href="https://www.linkedin.com/in/rabbani-sarkar-86ab60205/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
                 <FaLinkedinIn />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a href="https://www.instagram.com/developer_rabbani/?hl=en" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
                 <FaInstagram />
               </a>
             </div>

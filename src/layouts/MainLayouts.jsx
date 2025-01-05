@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import { Outlet } from 'react-router-dom';
 import bgimg from '../assets/fulBg.jpg';
+import Footer from '../Components/Footer';
 
 const MainLayouts = () => {
     return (
@@ -21,8 +22,9 @@ const MainLayouts = () => {
                 <Navbar />
             </div>
             {/* বাকী কন্টেন্ট */}
-            <div style={{ flex: 1 }}>
+            <div style={{ flex: 1 }}> 
                 <Outlet />
+                <Footer></Footer>
             </div>
         </div>
     );

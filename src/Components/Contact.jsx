@@ -73,10 +73,10 @@ const Contact = () => {
             <p className="text-sm font-semibold text-gray-300 mb-2">Follow Me</p>
             <div className="flex gap-4">
               {[
-                { href: "https://facebook.com", icon: <FaFacebookF />, color: "blue-500" },
+                { href: "https://www.facebook.com/developerrabbani", icon: <FaFacebookF />, color: "blue-500" },
                 { href: "https://twitter.com", icon: <FaTwitter />, color: "blue-400" },
-                { href: "https://linkedin.com", icon: <FaLinkedinIn />, color: "blue-600" },
-                { href: "https://github.com", icon: <FaGithub />, color: "gray-500" },
+                { href: "https://www.linkedin.com/in/rabbani-sarkar-86ab60205/", icon: <FaLinkedinIn />, color: "blue-600" },
+                { href: "https://github.com/programmerrabbanii", icon: <FaGithub />, color: "gray-500" },
               ].map((item, idx) => (
                 <a
                   key={idx}
