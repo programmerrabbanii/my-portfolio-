@@ -25,16 +25,17 @@ const Project = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
-        <div className="card md:w-96 w-full bg-black text-white">
+        {/* Card 1 */}
+        <div className="card md:w-96 w-full border border-[#4A00FF] text-white transition-transform duration-300 hover:scale-105">
           <figure>
             <img
-              className="h-[200px] bg-cover over w-full"
+              className="h-[200px] bg-cover w-full"
               src={found}
-              alt="car!"
+              alt="Lost and Found Application"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Lost and Found application</h2>
+            <h2 className="card-title">Lost and Found Application</h2>
             <p>
               {showMore1
                 ? "This Lost and Found Website connects people who have lost belongings with those who’ve found them. Users can report, browse, and recover items. It includes features like user authentication, file uploads, database management, and API integration. The project uses React, Tailwind CSS, DaisyUI, Firebase, and MongoDB, offering full-stack development experience."
@@ -43,28 +44,39 @@ const Project = () => {
                     42
                   )}
             </p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-start">
               <button
                 onClick={() => setShowMore1(!showMore1)}
                 className="text-[#4A00FF] hover:underline"
               >
                 {showMore1 ? "Show Less" : "See More"}
               </button>
-              <a
-                target="_blank"
-                href="https://found-and-lost-application.web.app/"
-              >
-                <button className="rounded-full border-2 py-2 px-14 mt-5 border-[#4A00FF] shadow-2xl">
-                  Live Link
-                </button>
-              </a>
+              <div className="flex gap-4">
+                <a
+                  target="_blank"
+                  href="https://found-and-lost-application.web.app/"
+                >
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Live Link
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://found-and-lost-application.web.app/"
+                >
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Repo Link
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="card md:w-96 w-full bg-black text-white">
+        {/* Card 2 */}
+        <div className="card md:w-96 w-full border border-[#4A00FF] text-white transition-transform duration-300 hover:scale-105">
           <figure>
-            <img className="h-[200px] bg-cover w-full" src={crwod} alt="car!" />
+            <img className="h-[200px] bg-cover w-full" src={crwod} alt="Crowdfunding Application" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Crowd Funding Application</h2>
@@ -76,29 +88,33 @@ const Project = () => {
                     42
                   )}
             </p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-start">
               <button
                 onClick={() => setShowMore2(!showMore2)}
                 className="text-[#4A00FF] hover:underline"
               >
                 {showMore2 ? "Show Less" : "See More"}
               </button>
-              <a target="_blank" href="https://assignment-ten-63235.web.app/">
-                <button className="rounded-full border-2 py-2 px-14 mt-5 border-[#4A00FF] shadow-2xl">
-                  Live Link
-                </button>
-              </a>
+              <div className="flex gap-4">
+                <a target="_blank" href="https://assignment-ten-63235.web.app/">
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Live Link
+                  </button>
+                </a>
+                <a target="_blank" href="https://assignment-ten-63235.web.app/">
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Repo Link
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="card md:w-96 w-full bg-black text-white">
+        {/* Card 3 */}
+        <div className="card md:w-96 w-full border border-[#4A00FF] text-white transition-transform duration-300 hover:scale-105">
           <figure>
-            <img
-              className="image-hover-effect h-[200px] bg-cover w-full"
-              src={winter}
-              alt="car!"
-            />
+            <img className="h-[200px] bg-cover w-full" src={winter} alt="Winter Clothing Donation" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Winter Clothing Donation Website</h2>
@@ -118,17 +134,16 @@ const Project = () => {
                 {showMore3 ? "Show Less" : "See More"}
               </button>
               <div className="flex gap-4">
-              <a target="_blank" href="https://assignment-nine-ea37e.web.app/">
-                <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
-                  Live Link
-                </button>
-              </a>
-
-              <a target="_blank" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-programmerrabbanii">
-                <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
-                  Repo Link
-                </button> 
-              </a>
+                <a target="_blank" href="https://assignment-nine-ea37e.web.app/">
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Live Link
+                  </button>
+                </a>
+                <a target="_blank" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-programmerrabbanii">
+                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                    Repo Link
+                  </button>
+                </a>
               </div>
             </div>
           </div>
