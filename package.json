@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "emailjs-com": "^3.2.0",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "motion": "^11.15.0",
@@ -20,6 +22,7 @@
     "react-simple-typewriter": "^5.0.1",
     "react-typed": "^2.0.12",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.15.10",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

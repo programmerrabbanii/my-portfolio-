@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="w-11/12 mx-auto py-12">
+    <div id="about" className="w-11/12 mx-auto py-12">
       <div className="hero w-full mx-auto">
         <div className="hero-content flex-col lg:flex-row gap-8 items-center">
           <motion.img
-            src={aboutimg}
+            src={aboutimg} 
             alt="About Image"
             className="max-w-md rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
             initial={{ opacity: 0, x: -50 }}
