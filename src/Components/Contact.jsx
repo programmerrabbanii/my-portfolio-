@@ -22,7 +22,7 @@ const Contact = () => {
           reply_to: formData.email,
           message: formData.message,
         },
-        "4lcyIX5i1sLkHf6Ka" // Replace with your EmailJS public key
+        "4lcyIX5i1sLkHf6Ka" 
       )
       .then(
         (result) => {
@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div id="contact" className="py-16 px-6">
       <p className="text-center text-3xl text-white">
-        Get In Touch: Let's Build Something Great
+        Get In Touch: Let's Build Something Great 
       </p>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 animate-fadeIn">
         {/* Left Section */}
@@ -138,13 +138,13 @@ const Contact = () => {
           </h2>
           <div className="mb-4">
             <p className="text-sm font-semibold text-gray-300">Phone</p>
-            <p className="text-lg">+880123456789</p>
+            <p className="text-lg">+8801798950302</p>
           </div>
           <div className="mb-4">
             <p className="text-sm font-semibold text-gray-300">Address</p>
-            <p className="text-lg">Dhaka, Bangladesh</p>
+            <p className="text-lg">Rajshahi,Bangladesh</p>
           </div>
-          <div className="mt-6">
+          <div className="mt-6"> 
             <p className="text-sm font-semibold text-gray-300 mb-2">Follow Me</p>
             <div className="flex gap-4">
               {[

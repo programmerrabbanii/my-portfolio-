@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import navbarlogo from "../assets/logo.png"
+import resume from '../assets/resume.pdf'
 
 const Navbar = () => {
   const navbarLinks = (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <li className="uppercase ml-4">
         <NavLink to="/" className="text-white hover:text-gray-300">
           Home
-        </NavLink>
+        </NavLink> 
       </li>
       <li className="uppercase ml-4">
         <a href="#about" className="text-white hover:text-gray-300">
@@ -54,13 +55,13 @@ const Navbar = () => {
 
       <div className="navbar-end">
         {/* Download Button */}
-        {/* <a
+        <a
           href={resume}
           download="Rabbani_Resume"
           className="btn btn-primary text-sm px-4 py-2"
         >
           Download Resume
-        </a> */}
+        </a>
         <div className="dropdown lg:hidden">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <svg
