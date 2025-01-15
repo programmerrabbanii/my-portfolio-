@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import navbarlogo from "../assets/logo.png"
-import resume from '../assets/resume.pdf'
+import resume from '../assets/Rabbani Sarkar.pdf'
 
 const Navbar = () => {
   const navbarLinks = (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavLink to="/" className="text-white hover:text-gray-300">
           Home
         </NavLink> 
-      </li>
+      </li> 
       <li className="uppercase ml-4">
         <a href="#about" className="text-white hover:text-gray-300">
           About
