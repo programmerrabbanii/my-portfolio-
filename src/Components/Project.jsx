@@ -101,7 +101,7 @@ const Project = () => {
                     Live Link
                   </button>
                 </a>
-                <a target="_blank" href="https://assignment-ten-63235.web.app/">
+                <a target="_blank" href="https://github.com/programmerrabbanii/c-founding-application-clients-">
                   <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Repo Link
                   </button>
@@ -109,7 +109,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         {/* Card 3 */}
         <div className="card md:w-96 w-full border border-[#4A00FF] text-white transition-transform duration-300 hover:scale-105">
