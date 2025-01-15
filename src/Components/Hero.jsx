@@ -1,14 +1,20 @@
 import React from "react";
 import heroImg from "../assets/rabbani.png";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div className="w-full mx-auto">
       <div className="hero min-h-screen text-white flex justify-center items-center relative">
-        <div className="hero-content flex-col lg:flex-row-reverse w-full mx-auto gap-4"> 
+        <div className="hero-content flex-col lg:flex-row-reverse w-full mx-auto gap-4">
           <motion.img
             src={heroImg}
             alt="Hero Image"
@@ -32,20 +38,42 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5 }}
             >
-              I'm a passionate full-stack developer who loves creating intuitive and engaging web applications. I work on both front-end and back-end technologies to build seamless digital experiences.
+              I'm a passionate full-stack developer who loves creating intuitive
+              and engaging web applications. I work on both front-end and
+              back-end technologies to build seamless digital experiences.
             </motion.p>
 
             <div className="flex justify-center lg:justify-start gap-6 pb-4">
-              <a href="https://github.com/programmerrabbanii" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a
+                href="https://github.com/programmerrabbanii"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl hover:text-gray-300 transition duration-300"
+              >
                 <FaGithub />
               </a>
-              <a href="https://www.facebook.com/developerrabbani" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a
+                href="https://www.facebook.com/developerrabbani"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl hover:text-gray-300 transition duration-300"
+              >
                 <FaFacebook />
               </a>
-              <a href="https://www.linkedin.com/in/rabbani-sarkar-86ab60205/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a
+                href="https://www.linkedin.com/in/rabbani-sarkar-86ab60205/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl hover:text-gray-300 transition duration-300"
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="https://www.instagram.com/developer_rabbani/?hl=en" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300 transition duration-300">
+              <a
+                href="https://www.instagram.com/developer_rabbani/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl hover:text-gray-300 transition duration-300"
+              >
                 <FaInstagram />
               </a>
             </div>
@@ -56,12 +84,23 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 2, duration: 1 }}
             >
-              View Resume
+              <a
+                href="https://drive.google.com/file/d/15CHWAxxpo2JhVh17JcBOM1qL7pFx1MMi/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                View Resume
+              </a>
             </motion.button>
 
             <div className="pt-6 text-2xl font-semibold text-gray-300">
               <Typewriter
-                words={["React Developer", "Backend Developer", "Tech Enthusiast"]}
+                words={[
+                  "React Developer",
+                  "Backend Developer",
+                  "Tech Enthusiast",
+                ]}
                 loop
                 cursor
                 cursorStyle="_"

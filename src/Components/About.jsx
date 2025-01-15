@@ -10,7 +10,7 @@ const About = () => {
           <motion.img
             src={aboutimg} 
             alt="About Image"
-            className="max-w-md rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
+            className="w-[50%] rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
@@ -47,13 +47,13 @@ const About = () => {
               I specialize in React and JavaScript, with experience in Node.js and Express.js for creating full-stack solutions.
             </motion.p>
 
-            <motion.button
-              className="btn btn-primary px-6 py-3 text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
+            <motion.button id="touch"
+              className="  btn btn-primary px-6 py-3 text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1, duration: 1 }}
             >
-              Get in Touch
+              <a href="#touch">Get in Touch</a>
             </motion.button>
           </div>
         </div>

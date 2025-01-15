@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
+import { section } from "motion/react-client";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -50,7 +51,8 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="py-16 px-6">
+  
+        <div  id="contact" className="py-16 px-6">
       <p className="text-center text-3xl text-white">
         Get In Touch: Let's Build Something Great 
       </p>
@@ -184,6 +186,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 

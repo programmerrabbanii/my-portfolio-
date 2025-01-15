@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaWordpress, FaGitAlt, FaGithub, FaNodeJs, FaFilePowerpoint } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTailwindcss } from "react-icons/si";
-import { BiLogoFirebase } from "react-icons/bi";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
+import { BiLogoFirebase, BiLogoMongodb } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -38,14 +38,15 @@ const Skills = () => {
             icon: <IoLogoJavascript />, label: "JavaScript",
           },
           {
+            icon: <FaReact />, label: "React",
+          },
+          {
             icon: <SiTailwindcss />, label: "Tailwind CSS",
           },
           {
             icon: <FaBootstrap />, label: "Bootstrap",
           },
-          {
-            icon: <FaReact />, label: "React",
-          },
+          
           {
             icon: <BiLogoFirebase />, label: "Firebase",
           },
@@ -53,17 +54,19 @@ const Skills = () => {
             icon: <FaNodeJs />, label: "Node.js",
           },
           {
-            icon: <FaWordpress />, label: "WordPress",
+            icon: <SiExpress />, label: "Express.js",
           },
           {
-            icon: <FaGitAlt />, label: "Git",
+            icon: <BiLogoMongodb />, label: "Mongodb",
           },
+          {
+            icon: <FaWordpress />, label: "WordPress",
+          },
+         
           {
             icon: <FaGithub />, label: "GitHub",
           },
-          {
-            icon: <FaFilePowerpoint />, label: "PowerPoint",
-          }
+          
         ].map((skill, index) => (
           <motion.div
             key={index}
