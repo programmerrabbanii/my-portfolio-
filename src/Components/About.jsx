@@ -10,7 +10,7 @@ const About = () => {
           <motion.img
             src={aboutimg} 
             alt="About Image"
-            className="w-[50%] rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
+            className="lg:w-[50%] sm:w-full rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}

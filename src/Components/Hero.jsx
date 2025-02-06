@@ -10,7 +10,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const Hero = () => { 
+const Hero = () => {
   return (
     <div className="w-full mx-auto">
       <div className="hero min-h-screen text-white flex justify-center items-center relative">
@@ -18,7 +18,9 @@ const Hero = () => {
           <motion.img
             src={heroImg}
             alt="Hero Image"
-            className="max-w-sm rounded-lg shadow-2xl transform scale-110 hover:scale-105 transition-all duration-500"
+            className="w-62 h-62 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 
+             mt-16 rounded-lg shadow-2xl transform md:scale-110 hover:scale-105 
+             transition-all duration-500"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}

@@ -56,7 +56,7 @@ const Project = () => {
                   target="_blank"
                   href="https://found-and-lost-application.web.app/"
                 >
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Live Link
                   </button>
                 </a>
@@ -64,7 +64,7 @@ const Project = () => {
                   target="_blank"
                   href="https://github.com/programmerrabbanii/lost-and-found-clients-"
                 >
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Repo Link
                   </button>
                 </a>
@@ -97,12 +97,12 @@ const Project = () => {
               </button>
               <div className="flex gap-4">
                 <a target="_blank" href="https://assignment-ten-63235.web.app/">
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Live Link
                   </button>
                 </a>
                 <a target="_blank" href="https://github.com/programmerrabbanii/c-founding-application-clients-">
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Repo Link
                   </button>
                 </a>
@@ -135,12 +135,12 @@ const Project = () => {
               </button>
               <div className="flex gap-4">
                 <a target="_blank" href="https://assignment-nine-ea37e.web.app/">
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 mt-5 border-[#4A00FF] shadow-2xl">
                     Live Link
                   </button>
                 </a>
                 <a target="_blank" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-programmerrabbanii">
-                  <button className="rounded-full border-2 py-2 px-10 mt-5 border-[#4A00FF] shadow-2xl">
+                  <button className="rounded-full border-2 py-2 px-3 lg:px-10 border-[#4A00FF] shadow-2xl">
                     Repo Link
                   </button>
                 </a>
