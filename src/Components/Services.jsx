@@ -23,7 +23,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <GiServerRack className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <GiServerRack className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">Build Full Website</h2>
             <p>
@@ -40,7 +40,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <GrSystem className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <GrSystem className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">Maintenance & Optimized</h2>
             <p>
@@ -57,7 +57,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <MdDesignServices className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <MdDesignServices className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">Unique Design</h2>
             <p>
@@ -74,7 +74,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <DiResponsive className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <DiResponsive className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">Responsive Layout</h2>
             <p>
@@ -91,7 +91,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <LuShoppingBag className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <LuShoppingBag className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">E-Commerce Store</h2>
             <p>
@@ -108,7 +108,7 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
-          <IoBugOutline className="mx-auto text-6xl text-yellow-400 mb-4" />
+          <IoBugOutline className="mx-auto text-6xl text-white mb-4" />
           <div className="card-body">
             <h2 className="font-bold text-xl">Bug Fixing</h2>
             <p>

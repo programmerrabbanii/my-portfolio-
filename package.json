@@ -23,6 +23,7 @@
     "react-typed": "^2.0.12",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.15.10",
+    "swiper": "^11.2.2",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

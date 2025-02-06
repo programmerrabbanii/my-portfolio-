@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/rabbani.png";
+import heroImg from "../assets/profile-pic.png";
 import {
   FaFacebook,
   FaGithub,
@@ -10,7 +10,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const Hero = () => {
+const Hero = () => { 
   return (
     <div className="w-full mx-auto">
       <div className="hero min-h-screen text-white flex justify-center items-center relative">
