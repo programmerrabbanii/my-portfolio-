@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div className="w-full mx-auto">
       <div className="hero min-h-screen text-white flex justify-center items-center relative">
-        <div className="hero-content flex-col lg:flex-row-reverse w-full mx-auto gap-4">
+        <div className="hero-content flex-col lg:flex-row-reverse w-full mx-auto gap-4 ">
           <motion.img
             src={heroImg}
             alt="Hero Image"
@@ -25,24 +25,23 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           />
-          <div className="text-center lg:text-left mt-8 lg:mt-0 lg:w-1/2">
+          <div className="text-center lg:text-left mt-8 lg:mt-0 lg:w-1/2"> 
             <motion.h1
-              className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
+              className="text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Welcome to My Portfolio
-            </motion.h1>
+              Building the Web, One Line of Code at a Time
+            </motion.h1> 
+            
             <motion.p
-              className="py-6 text-lg"
+              className="py-2 text-lg"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5 }}
             >
-              I'm a passionate full-stack developer who loves creating intuitive
-              and engaging web applications. I work on both front-end and
-              back-end technologies to build seamless digital experiences.
+              Front-End Developer | Expert in React, Tailwind CSS & JavaScript | Passionate about sleek, responsive UI | Exploring Back-End (Node.js, Express, MongoDB) for full-stack solutions | Always learning, always building.
             </motion.p>
 
             <div className="flex justify-center lg:justify-start gap-6 pb-4">

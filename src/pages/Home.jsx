@@ -5,9 +5,9 @@ import Skills from '../Components/Skills';
 import Services from '../Components/Services';
 import Project from '../Components/Project';
 import Contact from '../Components/Contact';
-import Testimonials from '../Components/Testimonials';
+// import Testimonials from '../Components/Testimonials';
 
-const Home = () => {
+const Home = () => { 
     return (
         <div>
            <Hero></Hero>
@@ -16,7 +16,7 @@ const Home = () => {
            <Services></Services>
            <Project></Project>
            <Contact></Contact>
-           <Testimonials></Testimonials>
+           {/* <Testimonials></Testimonials> */}
         </div>
     );
 };

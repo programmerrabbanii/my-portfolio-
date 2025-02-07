@@ -8,7 +8,7 @@ const About = () => {
       <div className="hero w-full mx-auto">
         <div className="hero-content flex-col lg:flex-row gap-8 items-center">
           <motion.img
-            src={aboutimg} 
+            src={aboutimg}
             alt="About Image"
             className="lg:w-[50%] sm:w-full rounded-xl shadow-lg transform transition duration-500 hover:scale-105"
             initial={{ opacity: 0, x: -50 }}
@@ -17,12 +17,12 @@ const About = () => {
           />
           <div className="text-center lg:text-left">
             <motion.h1
-              className="text-4xl lg:text-5xl font-extrabold text-white mb-4"
+              className="text-4xl lg:text-5xl font-bold text-white mb-4"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              About Me
+              About Me 🚀
             </motion.h1>
             <motion.p
               className="py-4 text-lg text-white leading-relaxed"
@@ -30,12 +30,16 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5 }}
             >
-              Hi there! I'm a passionate front-end developer with a keen eye for
-              design and a love for building beautiful, user-friendly web
-              applications. I specialize in React, JavaScript, and creating
-              seamless UI/UX that enhances user experience. My focus is on
-              writing clean, maintainable code while ensuring performance and
-              scalability.
+              Hey there! I'm a Front-End Developer passionate about crafting
+              visually stunning, responsive, and user-friendly web applications.
+              With a strong foundation in React, JavaScript, and modern UI/UX
+              principles, I build seamless experiences that engage users
+              effortlessly. While my expertise lies in front-end technologies,
+              I'm also expanding my skill set in Node.js and Express.js to
+              develop full-stack solutions that are scalable and efficient. I
+              believe in writing clean, maintainable, and high-performance code
+              to bring real-world ideas to life. Let's build something
+              extraordinary together! ✨
             </motion.p>
 
             <motion.p
@@ -44,10 +48,12 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.5 }}
             >
-              I specialize in React and JavaScript, with experience in Node.js and Express.js for creating full-stack solutions.
+              I specialize in React and JavaScript, with experience in Node.js
+              and Express.js for creating full-stack solutions.
             </motion.p>
 
-            <motion.button id="touch"
+            <motion.button
+              id="touch"
               className="  btn btn-primary px-6 py-3 text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
