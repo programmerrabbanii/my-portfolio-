@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/profile-pic.png";
+import heroImg from "../assets/rabbani.jpg";
 import {
   FaFacebook,
   FaGithub,
@@ -18,8 +18,8 @@ const Hero = () => {
           <motion.img
             src={heroImg}
             alt="Hero Image"
-            className="w-62 h-62 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 
-             mt-16 rounded-lg shadow-2xl transform md:scale-110 hover:scale-105 
+            className="w-62 h-62 sm:w-64  sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 
+             mt-16 rounded-full shadow-2xl transform md:scale-110 hover:scale-105 
              transition-all duration-500"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}

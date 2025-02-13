@@ -27,7 +27,7 @@ const Skills = () => {
     <div id="skills" className="py-12 w-11/12 mx-auto">
       <div className="text-white text-center">
         <motion.h2
-          className="text-4xl font-extrabold py-3"
+          className="text-4xl font-bold py-1"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}

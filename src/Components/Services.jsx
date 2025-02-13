@@ -10,9 +10,16 @@ import { motion } from "framer-motion";
 const Services = () => {
   return (
     <div id="services" className="py-12">
-      <div className="text-center text-white my-16">
-        <h3 className="text-4xl font-extrabold py-2">My Services</h3>
-        <h4 className="text-lg text-gray-400">What I do for my clients</h4>
+      <div className="text-center text-white my-5">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold text-white mb-2">
+            My Expert Services
+          </h2>
+          <p class="text-lg text-white">
+            Delivering quality solutions tailored to your needs. Explore our
+            wide range of services designed to help your business thrive.
+          </p>
+        </div>
       </div>
       {/* Service Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5">
@@ -113,7 +120,8 @@ const Services = () => {
             <h2 className="font-bold text-xl">Bug Fixing</h2>
             <p>
               I can solve malware, bugs, and errors that can harm your website.
-              Don't worry, I'm here to provide you with a clean and functional site.
+              Don't worry, I'm here to provide you with a clean and functional
+              site.
             </p>
           </div>
         </motion.div>

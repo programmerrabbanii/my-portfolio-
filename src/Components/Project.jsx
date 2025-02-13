@@ -20,8 +20,8 @@ const Project = () => {
   return (
     <div id="project">
       <div className="text-center text-white mt-24">
-        <h4>Latest Works</h4>
-        <h2 className="text-2xl mb-6">Our Recent Projects</h2>
+        <h2 className="text-4xl font-bold  ">My Recent Projects</h2>
+        <h4 className="mb-8 text-lg">A showcase of my recent work and technical achievements</h4>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-11/12 mx-auto">
