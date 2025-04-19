@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
-import navbarlogo from "../assets/logo.png";
 import resume from "../assets/Rabbani Sarkar.pdf";
+import logoAnimation from "../assets/Animation - 1744874395701.json"
+import Lottie from "lottie-react";
 
 const Navbar = () => {
   const navbarLinks = (
@@ -38,12 +39,12 @@ const Navbar = () => {
     </>
   );
 
-  return (
+  return ( 
     <div className="navbar bg-transparent backdrop-blur fixed top-0 z-30 w-full px-4 lg:px-20 text-white">
       <div className="navbar-start">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img className="w-12 lg:w-16" src={navbarlogo} alt="Logo" />
+         <Lottie className="h-20 w-24" animationData={logoAnimation}></Lottie>
         </Link>
       </div>
 
